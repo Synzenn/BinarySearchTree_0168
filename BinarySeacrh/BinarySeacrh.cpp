@@ -63,7 +63,7 @@ public:
 	}
 
 	void inorder(Node* ptr) {
-		if (ROOT = nullptr)
+		if (ROOT == nullptr)
 		{
 			cout << "Tree is empty" << endl;
 			return;
@@ -77,7 +77,7 @@ public:
 	}
 
 	void preorder(Node* ptr) {
-		if (ROOT = nullptr) {
+		if (ROOT == nullptr) {
 			cout << "Tree Is Empty" << endl;
 			return;
 		}
@@ -90,7 +90,7 @@ public:
 	}
 
 	void postorder(Node* ptr) {
-		if (ROOT = nullptr) {
+		if (ROOT == nullptr) {
 			cout << "Tree Is Empty" << endl;
 			return;
 		}
@@ -104,5 +104,8 @@ public:
 };
 
 int main() {
-
+	BinaryTree x;
+	while (true) 
+	{
+	
 }
