@@ -42,7 +42,12 @@ public:
 			return; // exit
 		}
 
-		
+		if (element < parent->info) {
+			parent->leftchild = newNode;
+		}
+		else if (element > parent->info) {
+			parent->rightchild = newNode;
+		}
 	}
 
 	
